@@ -1,93 +1,84 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <meta name="viewport" content="width=device-width, inital-scale=1.0">
-        <title> UCSD Duly Noted</title>
-        <link rel="stylesheet" href="style.css">
-
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"> 
-        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-
-    </head>
-    <body>
-        <section class="contact-header"> 
-            <nav>
-                <a hred="index.html"> <img src="images/logo.png"></img> </a>
-                <div class="nav-links" id="navLinks">
-                    <i class="fa fa-times-circle" onclick="hideMenu()"></i>
-                    <ul> 
-                        <li> <a href="index.html">HOME</a> </li>
-                     <li> <a href="about.html">ABOUT</a> </li>
-                     <li><div class="dropdown">
-                        <button class="dropbtn">MEMBERS</button>
-                        <div class="dropdown-content">
-                          <a href="members.html">Current Members</a>
-                          <a href="alumni.html">Alumni</a>
-                        </div>
-                      </div>
-                    </li>
-                    <li> <a href="auditions.html">AUDITIONS</a> </li>
-                     <li> <a href="contact.html">CONTACT</a> </li>
-                    </ul>
-                </div>
-                <i class="fa fa-bars" onclick="showMenu()"></i>
-            </nav>
-         <div class="text-box"> 
-             <h1>Contact Us</h1>
-         </div>
-
-        </section>
-
- <!---contact us-->
-
-    <section class="contactinfo">
-    <p> <a href="mailto: ucsddulynoted@gmail.com"> Send Us an Email</a></p>
-    <p> <a href="https://www.instagram.com/ucsddulynoted/"> Message us on Instagram</a></p>
-    <p> If you want to contact us about a performance, email us! <br>
-         If you have any questions or concerns, feel free to ask us on Instagram as well. <br> We will do our best to get back to you promptly. <br> Our email: <a href="mailto: ucsddulynoted@gmail.com">ucsddulynoted@gmail.com</a></p>
-         <br>
-         <br>
-    </section>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>UCSD Duly Noted</title>
     
- <!---footer-->
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/components/header.css">
+    <link rel="stylesheet" href="styles/components/footer.css">
+    <link rel="stylesheet" href="styles/components/nav.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"> 
+    <link rel="icon" href="favicon.ico">
+  </head>
+
+  <body>
+    <!-- Header -->
+    <section class="header">
+      <nav>
+        <a href="index.html">
+          <img src="images/logo.png">
+        </a>
+
+        <div class="nav-links">
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li>
+              <div class="dropdown">
+                <button class="dropbtn">MEMBERS</button>
+                <div class="dropdown-content">
+                  <a href="members.html">Current Members</a>
+                  <a href="alumni.html">Alumni</a>
+              </div>
+            </li>
+            <li><a href="auditions.html">AUDITIONS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="header-text">
+        <h1>Contact Us</h1>
+      </div>
+    </section>
+
+    <!-- Contact Us -->
+    <section class="contact-info">
+      <div class="contact-container">
+        <p><a href="mailto:ucsddulynoted@gmail.com">Send Us an Email!</a></p>
+        <p><a href="https://www.instagram.com/ucsddulynoted">Message Us on Instagram</a></p>
+        <p>If you want to contact us about a performance, email us!</p>
+        <p>If you have any questions or concerns, feel free to ask us on Instagram. We will do our best to get back to you promptly</p>
+        <p>Our email: <a href="mailto:ucsddulynoted@gmail.com">ucsddulynoted@gmail.com</a></p>
+      </div>
+    </section>
+
+    <!-- Footer -->
     <section class="footer">
+      <div>
         <h3>Follow us!</h3>
-        <br> 
-        <div class="icons"> 
-         <a target="blank" href="https://www.instagram.com/ucsddulynoted/">
-            <i class="fa-brands fa-instagram"> </i> 
-         </a>   
+      </div>
+      <div class="icons"> 
+        <a target="blank" href="https://www.instagram.com/ucsddulynoted/">
+          <i class="fa-brands fa-instagram"> </i> 
+        </a>   
         <a target="blank" href="https://www.youtube.com/@ucsddulynoted?app=desktop">
-        <i class="fa-brands fa-youtube" ></i>
+          <i class="fa-brands fa-youtube" ></i>
         </a>
         <a target="blank" href="https://www.facebook.com/ucsddulynoted/" > 
-            <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-facebook"></i>
         </a>
         <a target="blank" href="https://www.tiktok.com/@ucsddulynoted"> 
-    
-            <i class="fa-brands fa-tiktok"></i>
+          <i class="fa-brands fa-tiktok"></i>
         </a>
-    
-       <p> Made with <i class="fa-regular fa-heart"></i> by Caroline Hall-Sherr</p>
-    </div>
-    </div>
+      </div>
+      <div>
+        <p> Made with <i class="fa-regular fa-heart"></i> by Caroline Hall-Sherr</p>
+      </div>
     </section>
-
-
-
-<!------JavaScript for Toggle Menu----> 
-
-     <script> 
-        var navLinks=document.getElementById("navLinks");
-        function showMenu(){
-            navLinks.style.right= "0";
-        }
-        function hideMenu(){
-            navLinks.style.right= "-200px";
-        }
-        </script>
-
-</body>
+  </body>
 </html>

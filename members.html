@@ -1,230 +1,151 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <meta name="viewport" content="width=device-width, inital-scale=1.0">
-        <title> UCSD Duly Noted</title>
-        <link rel="stylesheet" href="style.css">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>UCSD Duly Noted</title>
+    
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/components/header.css">
+    <link rel="stylesheet" href="styles/components/footer.css">
+    <link rel="stylesheet" href="styles/components/nav.css">
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"> 
-        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="styles/members.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"> 
+    <link rel="icon" href="favicon.ico">
+  </head>
 
-    </head>
-    <body>
-        <section class="membersheader"> 
-            <nav>
-                <a hred="index.html"> <img src="images/logo.png"></img> </a>
-                <div class="nav-links" id="navLinks">
-                    <i class="fa fa-times-circle" onclick="hideMenu()"></i>
-                    <ul> 
-                        <li> <a href="index.html">HOME</a> </li>
-                     <li> <a href="about.html">ABOUT</a> </li>
-                     <li><div class="dropdown">
-                        <button class="dropbtn">MEMBERS</button>
-                        <div class="dropdown-content">
-                          <a href="members.html">Current Members</a>
-                          <a href="alumni.html">Alumni</a>
-                        </div>
-                      </div>
-                    </li>
-                    <li> <a href="auditions.html">AUDITIONS</a> </li>
-                     <li> <a href="contact.html">CONTACT</a> </li>
-                    </ul>
-                </div>
-                <i class="fa fa-bars" onclick="showMenu()"></i>
-            </nav>
+  <!-- Header -->
+  <body>
+    <section class="header">
+      <nav>
+        <a href="index.html">
+          <img src="images/logo.png">
+        </a>
 
-        <div class="text-box"> 
-            <h1>Current Members</h1>
+        <div class="nav-links">
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li>
+              <div class="dropdown">
+                <button class="dropbtn">MEMBERS</button>
+                <div class="dropdown-content">
+                  <a href="members.html">Current Members</a>
+                  <a href="alumni.html">Alumni</a>
+              </div>
+            </li>
+            <li><a href="auditions.html">AUDITIONS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
         </div>
-        </section>
-
-<!----Current Members-->
-        
-<section class="current-members"> 
-<div class="row">
-    <div class="column">
-      <div class="card">
-        <img src="images/current/laura.jpg"  style="width:100%">
-        <div class="container">
-          <h2>Laura Gasser</h2>
-          <p class="title" style="font-size: 16;"> Co-President/Co-Music Director</p>
-          <p> Alto</p>
-        </div>
+      </nav>
+      <div class="header-text">
+        <h1>Current Members</h1>
       </div>
-    </div>
+    </section>
 
-    <div class="column">
-        <div class="card">
-          <img src="images/current/jeremy.jpg"  style="width:100%">
-          <div class="container">
-            <h2>Jeremy Aranda</h2>
-            <p class="title"> Co-President</p>
-            <p> Baritone</p>
-          </div>
-        </div>
-    </div>
+    <!-- Current Members -->
+    <section class="members-grid">
+      <div class="member-card">
+        <img src="images/current/laura.jpg" alt="Laura Gasser">
+        <h2>Laura Gasser</h2>
+        <p>Co-President/Co-Music Directory</p>
+        <p>Alto</p>
+      </div>
 
-     <div class="column">
-            <div class="card">
-              <img src="images/current/parsa.jpg"  style="width:100%">
-              <div class="container">
-                <h2>Parsa Farnad</h2>
-   
-                <p class="title"> Co-Music Director</p>
-                <p> Tenor</p>
-              </div>
-            </div>
-    </div>
-</div>
-<div class="row">
-        <div class="column">
-          <div class="card">
-            <img src="images/current/cedric.jpg"  style="width:100%">
-            <div class="container">
-              <h2> Cedric-James David</h2>
-        
-              <p class="title"> Treasurer/Secretary</p>
-              <p> Baritone</p>
-            </div>
-          </div>
-        </div>
-    
-        <div class="column">
-            <div class="card">
-              <img src="images/current/sasha.jpg"  style="width:100%">
-              <div class="container">
-                <h2>Sasha Kourjanski</h2>
-          
-                <p class="title"> Performance Director</p>
-                <p> VP/Bass</p>
-              </div>
-            </div>
-        </div>
-    
-         <div class="column">
-                <div class="card">
-                  <img src="images/current/caroline.jpg"  style="width:100%">
-                  <div class="container">
-                    <h2>Caroline Hall-Sherr</h2>
+      <div class="member-card">
+        <img src="images/current/jeremy.jpg" alt="Jeremy Aranda">
+        <h2>Jeremy Aranda</h2>
+        <p>Co-President</p>
+        <p>Tenor</p>
+      </div>
+
+      <div class="member-card">
+        <img src="images/current/parsa.jpg" alt="Parsa Farnad">
+        <h2>Parsa Farnad</h2>
+        <p>Co-Music Director</p>
+        <p>Tenor</p>
+      </div>
+
+      <div class="member-card">
+        <img src="images/current/sasha.jpg" alt="Sasha Kourjanski">
+        <h2>Sasha Kourjanski</h2>
+        <p>Performance Director</p>
+        <p>VP/Bass</p>
+      </div>
+
+      <div class="member-card">
+        <img src="images/current/emma.png" alt="Emma Kalway">
+        <h2>Emma Kalway</h2>
+        <p>Social Chair</p>
+        <p>Mezzo</p>
+      </div>
+
+      <div class="member-card">
+        <img src="images/current/camille.jpg" alt="Camille Manalo">
+        <h2>Camille Manalo</h2>
+        <p>Public Relations</p>
+        <p>Alto</p>
+      </div>
       
-                    <p class="title"> PR/Social Chair</p>
-                    <p> Soprano</p>
-                  </div>
-                </div>
-         </div>
-</div>
-
-<div class="row">
-    <div class="column">
-      <div class="card">
-        <img src="images/current/autumn.png"  style="width:100%">
-        <div class="container">
-          <h2>Autumn Hope</h2>
-          <br>
-          <p>Tenor</p>
-        </div>
+      <div class="member-card">
+        <img src="images/current/cedric.jpg" alt="Cedric-James David">
+        <h2>Cedric-James David</h2>
+        <p>Treasurer/Secretary</p>
+        <p>Baritone</p>
       </div>
-    </div>
 
-    <div class="column">
-        <div class="card">
-          <img src="images/current/camille.jpg"  style="width:100%">
-          <div class="container">
-            <h2>Camille Manalo</h2>
-            <br>
-            <p>Alto</p>
-          </div>
-        </div>
-    </div>
-
-     <div class="column">
-            <div class="card">
-              <img src="images/current/emma.png"  style="width:100%">
-              <div class="container">
-                <h2>Emma Kalway</h2>
-                <br>
-                <p>Mezzo</p>
-              </div>
-            </div>
-     </div>
-</div>
-
-<div class="row">
-    <div class="column">
-      <div class="card">
-        <img src="images/current/justin.jpg"  style="width:100%">
-        <div class="container">
-          <h2>Justin Lagala</h2>
-          <br>
-          <p>Bass</p>
-        </div>
+      <div class="member-card">
+        <img src="images/current/autumn.png" alt="Autumn Hope">
+        <h2>Autumn Hope</h2>
+        <p>Tenor</p>
       </div>
+
+      <div class="member-card">
+        <img src="images/current/lee.jpg" alt="Lee">
+        <h2>Lee</h2>
+        <p>Tenor</p>
+      </div>
+
+      <div class="member-card">
+        <img src="images/current/kkenneth.png" alt="Kenneth Chung">
+        <h2>Kenneth Chung</h2>
+        <p>Baritone</p>
+      </div>
+
+      <div class="member-card">
+        <img src="images/current/justin.jpg" alt="Justin Lagala">
+        <h2>Justin Lagala</h2>
+        <p>Bass</p>
+      </div>
+    </section>
+  </body>
+
+  <!-- Footer -->
+  <section class="footer">
+    <div>
+      <h3>Follow us!</h3>
     </div>
-
-    <div class="column">
-        <div class="card">
-          <img src="images/current/kkenneth.png"  style="width:100%">
-          <div class="container">
-            <h2>Kenneth Chung</h2>
-            <br>
-            <p>Baritone</p>
-          </div>
-        </div>
-    </div>
-
-     <div class="column">
-            <div class="card">
-              <img src="images/current/lee.jpg"  style="width:100%">
-              <div class="container">
-                <h2>Elijah Lee</h2>
-                <br>
-                <p>Tenor</p>
-              </div>
-            </div>
-     </div>
-</div>
-
-</section>
-
-<!----footer-->
-
-<section class="footer">
-    <h3>Follow us!</h3>
-    <br> 
     <div class="icons"> 
-     <a target="blank" href="https://www.instagram.com/ucsddulynoted/">
+      <a target="blank" href="https://www.instagram.com/ucsddulynoted/">
         <i class="fa-brands fa-instagram"> </i> 
-     </a>   
-    <a target="blank" href="https://www.youtube.com/@ucsddulynoted?app=desktop">
-    <i class="fa-brands fa-youtube" ></i>
-    </a>
-    <a target="blank" href="https://www.facebook.com/ucsddulynoted/" > 
+      </a>   
+      <a target="blank" href="https://www.youtube.com/@ucsddulynoted?app=desktop">
+        <i class="fa-brands fa-youtube" ></i>
+      </a>
+      <a target="blank" href="https://www.facebook.com/ucsddulynoted/" > 
         <i class="fa-brands fa-facebook"></i>
-    </a>
-    <a target="blank" href="https://www.tiktok.com/@ucsddulynoted"> 
-
+      </a>
+      <a target="blank" href="https://www.tiktok.com/@ucsddulynoted"> 
         <i class="fa-brands fa-tiktok"></i>
-    </a>
-
-   <p> Made with <i class="fa-regular fa-heart"></i> by Caroline Hall-Sherr</p>
-</div>
-</div>
-</section>
-
-
-<!------JavaScript for Toggle Menu----> 
-
-     <script> 
-        var navLinks=document.getElementById("navLinks");
-        function showMenu(){
-            navLinks.style.right= "0";
-        }
-        function hideMenu(){
-            navLinks.style.right= "-200px";
-        }
-        </script>
-
-</body>
+      </a>
+    </div>
+    <div>
+      <p> Made with <i class="fa-regular fa-heart"></i> by Caroline Hall-Sherr</p>
+    </div>
+  </section>
 </html>

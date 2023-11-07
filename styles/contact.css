@@ -1,0 +1,25 @@
+.header {
+  min-height: 50vh;
+  background-image:linear-gradient(rgba(255, 255, 255, 0.223),rgb(137,155,132,0.3)),url("../images/purplebanner.jpg");
+}
+
+.contact-info {
+  background:linear-gradient(50deg, rgba(194, 235, 203, 0.534) 9%, rgb(163, 202, 166) 40%, rgba(219, 196, 228, 0.565) 100%);
+}
+
+.contact-container {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 10%;
+}
+
+.contact-container p, a {
+  font-size: 20px;
+  font-weight: 200;
+  line-height:26px;
+  padding: 10px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}

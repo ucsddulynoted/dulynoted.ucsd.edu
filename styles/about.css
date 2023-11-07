@@ -1,0 +1,25 @@
+.header {
+    min-height: 50vh;
+    background: linear-gradient(rgba(255, 255, 255, 0.6),rgba(58, 57, 59, 0.409)),url("../images/banner2.jpeg");
+    background-position: center bottom;
+    background-size: cover;
+}
+
+.about-us {
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    background:linear-gradient(50deg, rgba(206, 224, 207, 0.441) 9%, rgb(228, 229, 210) 49%, rgba(172, 160, 177, 0.565) 100%);
+}
+
+.about-us p {
+    font-size: 20px;
+    font-weight: 200;
+    line-height:26px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}

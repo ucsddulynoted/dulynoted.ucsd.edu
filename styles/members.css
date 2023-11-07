@@ -1,0 +1,25 @@
+.header {
+  min-height:50vh;
+  background-image:linear-gradient(rgba(255, 255, 255, 0.223),rgb(137,155,132,0.3)),url("../images/greenbanner.jpg");
+}
+
+.members-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+}
+
+.member-card {
+  text-align: center;
+  padding: 20px;
+}
+
+.member-card h2 {
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.member-card p {
+  margin: 0;
+  font-size: 18;
+}

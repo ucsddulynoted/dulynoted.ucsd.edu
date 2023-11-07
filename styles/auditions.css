@@ -1,0 +1,37 @@
+.header {
+  min-height: 50vh;
+  background-image:linear-gradient(rgba(255, 255, 255, 0.438),rgba(255, 255, 255, 0.378)),url("../images/lauging.JPG");
+  background-position: center;
+}
+
+.header-text {
+  color: black;
+}
+
+.auditions {
+  background:linear-gradient(50deg, rgba(194, 235, 203, 0.534) 9%, rgb(163, 202, 166) 40%, rgba(219, 196, 228, 0.565) 100%);
+}
+
+.auditions-container {
+  width: 70%;
+  color: black;
+  position: relative;
+  text-align: left;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 10%;
+}
+
+.auditions-container h2 {
+  font-size: 40px;
+}
+
+.auditions-container p {
+  font-size: 16;
+  line-height: 2;
+}
+
+.auditions-container h3 {
+  font-style: oblique;
+  font-weight: 400;
+}
