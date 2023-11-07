@@ -14,7 +14,7 @@
   margin-bottom: 10%;
 }
 
-.contact-container p, a {
+.contact-container p, .contact-container a {
   font-size: 20px;
   font-weight: 200;
   line-height:26px;
