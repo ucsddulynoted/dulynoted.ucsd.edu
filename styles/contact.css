@@ -11,15 +11,18 @@
   width: 70%;
   margin-left: 15%;
   margin-right: 15%;
-  margin-bottom: 10%;
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .contact-container p, .contact-container a {
   font-size: 20px;
   font-weight: 200;
   line-height:26px;
-  padding: 10px;
   text-align: center;
-  margin-top: 30px;
-  margin-bottom: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }

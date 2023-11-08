@@ -10,28 +10,39 @@
 
 .auditions {
   background:linear-gradient(50deg, rgba(194, 235, 203, 0.534) 9%, rgb(163, 202, 166) 40%, rgba(219, 196, 228, 0.565) 100%);
+  padding-bottom: 5%;
 }
 
-.auditions-container {
+.auditions-container, .faq-container {
   width: 70%;
   color: black;
   position: relative;
   text-align: left;
   margin-left: 15%;
   margin-right: 15%;
-  margin-bottom: 10%;
 }
 
-.auditions-container h2 {
+.auditions-container h2, .faq-container h2 {
   font-size: 40px;
+  padding: 20px 0px;
 }
 
-.auditions-container p {
+.auditions-container p, .faq-container p {
   font-size: 16;
   line-height: 2;
+  padding-left: 20px;
 }
 
-.auditions-container h3 {
+.auditions-container h3, .faq-container h3 {
   font-style: oblique;
-  font-weight: 400;
+  font-weight: 700;
+  margin: 10px 0px;
+}
+
+.auditions-container ol {
+    margin-left: 20px;
+}
+
+.faq-container ul {
+    list-style-type: none;
 }
