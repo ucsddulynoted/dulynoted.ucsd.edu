@@ -1,0 +1,8 @@
+site_name: Duly Noted Website Docs
+
+site_url: https://dulynoted.ucsd.edu/docs/
+repo_url: https://github.com/ucsddulynoted/dulynoted.ucsd.edu
+
+theme: readthedocs
+
+site_dir: public/doc
